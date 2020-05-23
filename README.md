@@ -8,7 +8,7 @@ While Instructors can add and view announcements, assignments and downloadable c
 The ChalkBoard app only works for students and instructors who are already registered. Thereby preventing students and instructors from registering themselves in a school's database. 
 So the following user ID's and passwords can be used to login:
 
-Student                
+#### Student Login               
 ------------------------
 id          | password          
 ------------|-----------
@@ -16,7 +16,7 @@ id          | password
  jgos       | 123       
 
 
- Instructor
+ #### Instructor Login
  --------------------------------
  id          | password       
  ------------|-------------------
@@ -25,7 +25,7 @@ id          | password
   
   ## Build
   
-  FrontEnd: The front end was build using react-boostrap; a library which composes of react.js and bootstrap framework. So it can be said the app is a react app which is run using "npm start".
+  FrontEnd: The front end was build using react-boostrap; a library which composes of react.js and bootstrap framework. So it can be     said the app is a react app which is run using "npm start".
   
   BackEnd: The back end which was built by a different contributor "James Gossling" made use of spring boot and node.js.
   

@@ -1,0 +1,44 @@
+{
+  "name": "chalkboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "modules": "^0.4.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^3.0.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^1.1.5",
+    "script": "^0.1.4",
+    "scripts": "^0.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "SET NODE_ENV=production && webpack-dev-server --host 127.0.0.1 --inline --history-api-fallback --content-base . react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

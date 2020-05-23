@@ -1,0 +1,20 @@
+.center{
+    margin: auto;
+    width: 50%,;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #c8102e;
+}
+
+.LoginScreen {
+    background-color: white;
+
+}
+
+h1 {
+    color: black;
+    font-style: italic;
+    margin: auto;
+    border-style: outset;
+}

@@ -1,0 +1,15 @@
+
+.wholePage{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gold;
+    display: flex;
+    -ms-flex-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+}
+
+

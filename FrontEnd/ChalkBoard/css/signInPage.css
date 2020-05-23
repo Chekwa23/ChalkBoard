@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: gold;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.inputLabel{
+	display: none;
+}
+
+
+/*
+	<link rel="apple-touch-icon" href="C:\\Users\\onwuc\\Eclipse2019\\ChalkBoard\\logo\\logo2.png" sizes="180x180">
+	<link rel="icon" href="C:\\Users\\onwuc\\Eclipse2019\\ChalkBoard\\logo\\logo2.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="C:\\Users\\onwuc\\Eclipse2019\\ChalkBoard\\logo\\logo2.png" sizes="16x16" type="image/png">
+	<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+	<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+	<link rel="icon" href="C:\\Users\\onwuc\\Eclipse2019\\ChalkBoard\\logo\\logo2.png">
+	<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#563d7c">
+	*/

@@ -1,0 +1,289 @@
+import React, { Component } from 'react';
+import TopNavBar from './TopNavBar';
+import './adminlteCustom.css';
+import { Button } from "react-bootstrap";
+
+class Home extends Component {
+    constructor(){
+        super();
+        this.state = {
+            lastName:'',
+            firstName:'',
+            fullName:''
+        };
+    }
+
+    async componentDidMount(){
+        const qStr = window.location.search;
+        const urlParam = new URLSearchParams(qStr);
+        await this.setState({lastName: urlParam.get('Lname'), firstName: urlParam.get('Fname')});
+        let str = ''+this.state.firstName+" "+this.state.lastName;
+        await this.setState({fullName: str})
+        // alert(this.state.fullName);
+    }
+
+    render() {
+        return(
+            <div className="content-wrapper">
+                <TopNavBar fullname={this.state.fullName}/>
+                {/* Content Header (Page header) */}
+                {/* <Button onClick={()=>{ window.location.href='./AddCourse'}}>Student Add Course</Button>
+                <Button onClick={()=>{ window.location.href='./InstructorAddClass'}}>Instructor Add Course</Button> */}
+                <div className="content-header mt-2">
+                    <div className="container-fluid">
+                        <div className="row mb-2">
+                            <div className="col-sm-8">
+                            <h1 className="m-0 text-dark"> Dashboard</h1>
+                            </div>
+                            <div className="col-sm-4">
+                                <ol className="breadcrumb float-sm-right">
+                                    <li className="breadcrumb-item">Home</li>
+                                    <li className="breadcrumb-item active">Dashboard</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section className="content">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h5 className="card-title">Grade Overview</h5>
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="row">
+                                            <div className="col-md-8">
+                                                <p className="text-center">
+                                                    <strong>Current GPA Standing</strong>
+                                                </p>
+                                                <div className="chart">
+                                                    <canvas id="salesChart" height={180} style={{height: 180}} />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-4">
+                                                <p className="text-center">
+                                                    <strong>All Courses Score</strong>
+                                                </p>
+                                                <div className="progress-group">
+                                                    <span className="progress-text">COMS 327</span>                                    
+                                                    <span className="float-right"><b>160</b>/200</span>
+                                                    <div className="progress progress-sm">
+                                                        <div className="progress-bar bg-primary" style={{width: '80%'}} />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className="mt-3 col-md-12">
+                                <div className="card">
+                                    <div className="card-header">
+                                        <h3 className="card-title">All Courses</h3>
+                                        <div className="card-tools">
+                                            <button type="button" className="btn btn-tool" data-card-widget="collapse"><i className="fas fa-minus" /></button>
+                                            <button type="button" className="btn btn-tool" data-card-widget="remove"><i className="fas fa-times" /></button>
+                                        </div>
+                                    </div>
+                                    <div className="card-body p-0">
+                                        <ul className="users-list clearfix">
+                                            <li>
+                                                <div style={{backgroundColor:'#FF4646', width:'128px', height: '128px'}}></div>
+                                                <a className="users-list-name" href="./CoursePage">COMS 327</a>
+                                            </li>
+                                            <li>
+                                                <div style={{backgroundColor:'#2828E1', width:'128px', height: '128px'}}></div>
+                                                <a className="users-list-name" href="./CoursePage">COMS 319</a>
+                                            </li>
+                                            <li>
+                                                <div style={{backgroundColor:'#28A828', width:'128px', height: '128px'}}></div>
+                                                <a className="users-list-name" href="./CoursePage">ENG 314</a>
+                                            </li>
+                                            <li>
+                                                <div style={{backgroundColor:'#FFFF32', width:'128px', height: '128px'}}></div>
+                                                <a className="users-list-name" href="./CoursePage">COMS 230</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="card-footer text-center">
+                                        <a href="./CoursesEnrolledPage">View All Courses</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row mb-5">
+                            {/* Left col */}
+                            <div className="col-md-8">
+                            <div className="card mt-3">
+                                <div className="card-header border-transparent">
+                                    <h3 className="card-title">Assignments</h3>
+                                    <div className="card-tools">
+                                        <button type="button" className="btn btn-tool" data-card-widget="collapse">
+                                        <i className="fas fa-minus" />
+                                        </button>
+                                        <button type="button" className="btn btn-tool" data-card-widget="remove">
+                                        <i className="fas fa-times" />
+                                        </button>
+                                    </div>
+                                </div>
+                                {/* /.card-header */}
+                                <div className="card-body p-0">
+                                    <div className="table-responsive">
+                                        <table className="table m-0">
+                                        <thead>
+                                            <tr>
+                                            <th>Course Name</th>
+                                            <th>Assignment Title</th>
+                                            <th>Submission Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="./CoursePage">COMS 327</a></td>
+                                                <td>Project 3</td>
+                                                <td>
+                                                    <div className="sparkbar" data-color="#00a65a" data-height={20}>May 7, 2020</div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card mt-3">
+                                <div className="card-header">
+                                    <h3 className="card-title">Announcement</h3>
+                                </div>
+                                <div className="card-body p-0">
+                                    <ul className="products-list product-list-in-card pl-2 pr-2">
+                                        <li className="item">
+                                            <div className="product-img">
+                                                <div style={{backgroundColor:'#FF4646', width:'50px', height: '50px'}}></div>
+                                            </div>
+                                            <div className="product-info">
+                                                <a href="javascript:void(0)" className="product-title">COM S 327</a>
+                                                <span className="product-description">HW 7 Posted</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        )
+    }
+}
+
+export default Home
+
+// import React, { Component } from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import courses from './courses';
+// import {temp} from './courses';
+// import {addedCourses} from './InstructorAddClass';
+// import TopNavBar from './TopNavBar';
+
+// import { FormControl, Button, Card, InputGroup, Container, Row, Col } from "react-bootstrap";
+
+// var todoStr = "";
+
+// function addTodo(str)
+// {
+//     return <p>=> <span>{str}</span></p>;
+// }
+
+// class CoursePage extends Component{
+//     render(){
+//         return(
+//             <div style={{height:"100%"}}>
+//                 <TopNavBar />
+//                 <Container fluid style={{height:"100%"}}>
+//                     <Card className="mt-3 mx-3" border="danger">
+//                         <Card.Header as="h5">{courses[0].name}: {courses[0].code}</Card.Header>
+//                         <Card.Body>
+//                             <Card.Title>Course Info </Card.Title><br/>
+//                             <Card.Text>
+//                                 <p>Integral calculus, applications of the integral, parametric curves and polar coordinates, power series and Taylor series.</p>
+//                             </Card.Text>
+//                         </Card.Body>
+//                     </Card>
+
+//                     <Container className="mt-5 mx-3" fluid style={{height:"100%"}}>
+//                         <Row>
+//                             <Col xs={12} md={8}>
+//                                 <Row>
+//                                     <Card className="mb-3 mr-3" style={{width:"100%"}}>
+//                                         <Card.Header as="h5">Announcements</Card.Header>
+//                                         <Card.Body>
+//                                             <Card.Text>
+//                                                 Instructor can add announcements here and the student can view them.
+//                                             </Card.Text>
+                                            
+//                                         </Card.Body>
+//                                     </Card>
+//                                 </Row>
+//                                 <Row>
+//                                     <Card className="mb-3 mr-3" style={{width:"100%"}}>
+//                                         <Card.Header as="h5">Notes</Card.Header>
+//                                         <Card.Body>
+//                                             <Card.Text>
+//                                                 The Instructor can add text files or nodes and the student can view or download.
+//                                             </Card.Text>
+//                                         </Card.Body>
+//                                     </Card>
+//                                 </Row>
+//                                 <Row>
+//                                     <Card className="mb-3 mr-3" style={{width:"100%"}}>
+//                                         <Card.Header as="h5">Grades</Card.Header>
+//                                         <Card.Body>
+//                                             <Card.Text>
+//                                                 The student's grades would be posted on this card.
+//                                             </Card.Text>
+//                                         </Card.Body>
+//                                     </Card>
+//                                 </Row>
+//                             </Col>
+//                             <Col xs={6} md={4}>
+//                                 <Card className="mb-3 mr-3">
+//                                     <Card.Header as="h5">To do</Card.Header>
+//                                     <Card.Body>
+//                                         <div className="mb-5">
+//                                             <Card.Title >Add things to do on this list.</Card.Title><br/><br/>
+//                                             <Card.Text>
+//                                                 <div className="todo">
+//                                                     <p>=> <span>{todoStr}</span></p>
+//                                                 </div>
+//                                             </Card.Text>
+//                                         </div>
+//                                         <Card.Footer>
+//                                             <InputGroup className="mb-3">
+//                                                 <FormControl placeholder="Enter things to do..." aria-label="Recipient's username"  aria-describedby="basic-addon2" onChange={e => todoStr = e.target.value} />
+//                                                 <InputGroup.Append>
+//                                                     <Button type="submit" onClick={() => addTodo(todoStr)} variant="outline-danger">Add</Button>
+//                                                 </InputGroup.Append>
+//                                             </InputGroup>
+//                                         </Card.Footer>
+//                                     </Card.Body>
+//                                 </Card>
+//                             </Col>
+//                         </Row>
+
+//                     </Container>
+
+//                 </Container>
+//             </div>
+//         );
+//     }
+// }
+
+// export default CoursePage;

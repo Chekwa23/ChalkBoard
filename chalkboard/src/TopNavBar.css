@@ -1,0 +1,33 @@
+.TopNavBar {
+    /* height: 190px; */
+    /* font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+    position: fixed; */
+    background-color: #c8102e;
+}
+
+.navBar {
+    background-color: #c8102e;
+    height: 190px;
+    border-bottom: 15px solid #F1BE48;
+}
+
+.titleText{
+    padding-left: 35px;
+    color: #F1BE48;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 300%;
+}
+
+.textColor{
+    color: #F1BE48;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.signedInText{
+    color: #f5f5f5;
+    text-shadow: 1px 1px 2px #000000;
+}

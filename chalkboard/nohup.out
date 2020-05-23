@@ -1,0 +1,557 @@
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/InstructorStudentList.js
+  Line 10:  'Link' is defined but never used  no-unused-vars
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 318:  'host' is assigned a value but never used          no-unused-vars
+  Line 319:  'pathname' is assigned a value but never used      no-unused-vars
+  Line 342:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 14:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 21:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 23:  'AssignmentContent' is defined but never used    no-unused-vars
+
+./src/InstructorClassPage.js
+  Line 94:   Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+  Line 102:  Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Something is already running on port 3000.
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/InstructorStudentList.js
+  Line 10:  'Link' is defined but never used  no-unused-vars
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 318:  'host' is assigned a value but never used          no-unused-vars
+  Line 319:  'pathname' is assigned a value but never used      no-unused-vars
+  Line 342:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 14:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 21:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 23:  'AssignmentContent' is defined but never used    no-unused-vars
+
+./src/InstructorClassPage.js
+  Line 94:   Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+  Line 102:  Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/InstructorStudentList.js
+  Line 10:  'Link' is defined but never used  no-unused-vars
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:  'Button' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 14:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 21:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 23:  'AssignmentContent' is defined but never used    no-unused-vars
+
+./src/InstructorClassPage.js
+  Line 94:   Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+  Line 102:  Links must not point to "#". Use a more descriptive href or use a button instead  jsx-a11y/href-no-hash
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/InstructorChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:   'Button' is defined but never used            no-unused-vars
+  Line 93:  Expected to return a value in arrow function  array-callback-return
+  Line 96:  Missing radix parameter                       radix
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/ViewNotes.js
+  Line 5:  'Button' is defined but never used       no-unused-vars
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorAddNotes.js
+  Line 5:  'Form' is defined but never used   no-unused-vars
+  Line 5:  'Image' is defined but never used  no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 15:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 23:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 25:  'AssignmentContent' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/InstructorChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:   'Button' is defined but never used            no-unused-vars
+  Line 93:  Expected to return a value in arrow function  array-callback-return
+  Line 96:  Missing radix parameter                       radix
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/ViewNotes.js
+  Line 5:  'Button' is defined but never used       no-unused-vars
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorAddNotes.js
+  Line 5:  'Form' is defined but never used   no-unused-vars
+  Line 5:  'Image' is defined but never used  no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 15:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 23:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 25:  'AssignmentContent' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/InstructorChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:   'Button' is defined but never used            no-unused-vars
+  Line 93:  Expected to return a value in arrow function  array-callback-return
+  Line 96:  Missing radix parameter                       radix
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/ViewNotes.js
+  Line 5:  'Button' is defined but never used       no-unused-vars
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorAddNotes.js
+  Line 5:  'Form' is defined but never used   no-unused-vars
+  Line 5:  'Image' is defined but never used  no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 15:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 23:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 25:  'AssignmentContent' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/InstructorChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:   'Button' is defined but never used            no-unused-vars
+  Line 95:  Expected to return a value in arrow function  array-callback-return
+  Line 98:  Missing radix parameter                       radix
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/ViewNotes.js
+  Line 5:  'Button' is defined but never used       no-unused-vars
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorAddNotes.js
+  Line 5:  'Form' is defined but never used   no-unused-vars
+  Line 5:  'Image' is defined but never used  no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 15:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 23:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 25:  'AssignmentContent' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+
+> chalkboard@0.1.0 start /home/jgos/g13/chalkboard
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/CoursePage.js
+  Line 246:  'InputGroup' is defined but never used             no-unused-vars
+  Line 246:  'FormControl' is defined but never used            no-unused-vars
+  Line 254:  'url' is assigned a value but never used           no-unused-vars
+  Line 258:  'client' is defined but never used                 no-unused-vars
+  Line 335:  'getClassCode' is assigned a value but never used  no-unused-vars
+
+./src/ChatBox.js
+  Line 33:  'host' is assigned a value but never used      no-unused-vars
+  Line 34:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/InstructorChatBox.js
+  Line 37:  'host' is assigned a value but never used      no-unused-vars
+  Line 38:  'pathname' is assigned a value but never used  no-unused-vars
+
+./src/Home.js
+  Line 4:   'Button' is defined but never used            no-unused-vars
+  Line 95:  Expected to return a value in arrow function  array-callback-return
+  Line 98:  Missing radix parameter                       radix
+
+./src/AssignmentContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AnnouncementContent.js
+  Line 4:  'MainFooter' is defined but never used  no-unused-vars
+
+./src/AssignmentPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/AnnouncementPage.js
+  Line 59:  'list' is assigned a value but never used  no-unused-vars
+
+./src/ViewNotes.js
+  Line 5:  'Button' is defined but never used       no-unused-vars
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorHome.js
+  Line 5:  'Button' is defined but never used  no-unused-vars
+
+./src/InstructorAddedClassConfirmation.js
+  Line 5:  'Form' is defined but never used         no-unused-vars
+  Line 5:  'InputGroup' is defined but never used   no-unused-vars
+  Line 5:  'FormControl' is defined but never used  no-unused-vars
+  Line 5:  'Image' is defined but never used        no-unused-vars
+
+./src/InstructorAddNotes.js
+  Line 5:  'Form' is defined but never used   no-unused-vars
+  Line 5:  'Image' is defined but never used  no-unused-vars
+
+./src/LoginScreen.js
+  Line 65:  Expected '===' and instead saw '=='  eqeqeq
+  Line 70:  Expected '===' and instead saw '=='  eqeqeq
+  Line 74:  Expected '===' and instead saw '=='  eqeqeq
+
+./src/ChalkBoard.js
+  Line 7:   'TopNavBar' is defined but never used            no-unused-vars
+  Line 15:  'InstructorTopNavBar' is defined but never used  no-unused-vars
+  Line 23:  'AnnouncementContent' is defined but never used  no-unused-vars
+  Line 25:  'AssignmentContent' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

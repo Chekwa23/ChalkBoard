@@ -1,0 +1,23 @@
+.chatpage {
+    display: grid;
+    justify-content: center;
+
+}
+
+.chatpage h2 {
+    font-style: oblique;
+    font: bold;
+    
+}
+
+.chatpage input {
+
+}
+
+.chatpage button {
+
+}
+
+.chatpage textarea {
+
+}

@@ -1,0 +1,7 @@
+List of our servers for the semester
+-----------------------------------
+
+coms-319-050.cs.iastate.edu Gossling, James
+coms-319-055.cs.iastate.edu Gudenkauf, Jake
+coms-319-116.cs.iastate.edu Onwuchekwa, Lucas
+coms-319-113.cs.iastate.edu Norizan, Muhammad

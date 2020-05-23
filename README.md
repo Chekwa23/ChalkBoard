@@ -21,3 +21,11 @@ id          | password
  id          | password       
  ------------|-------------------
   jdoe       | 123
+  
+  
+  Build
+  
+  FrontEnd: The front end was build using react-boostrap; a library which composes of react.js and bootstrap framework. So it can be said the app is a react app which is run using "npm start".
+  
+  BackEnd: The back end which was built by a different contributor "James Gossling" made use of spring boot and node.js.
+  

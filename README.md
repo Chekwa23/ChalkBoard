@@ -8,12 +8,12 @@ While Instructors can add and view announcements, assignments and downloadable c
 The ChalkBoard app only works for students and instructors who are already registered. Thereby preventing students and instructors from registering themselves in a school's database. 
 So the following user ID's and passwords can be used to login:
 
-Student
+Student***************************
 id          password
 -lucaso     123
 -jgos       123
 
-Instructor
+Instructor********************
 id          password
 -jdoe       123
 -

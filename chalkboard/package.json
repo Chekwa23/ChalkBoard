@@ -15,7 +15,7 @@
     "react-dom": "^16.13.1",
     "react-router": "^3.0.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "script": "^0.1.4",
     "scripts": "^0.1.0",
     "selenium-webdriver": "^4.0.0-alpha.7"
